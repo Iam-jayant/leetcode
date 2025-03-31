@@ -11,6 +11,7 @@ public class q9_palindrome {
           int digit = x % 10;
           reversed = reversed * 10 + digit;
           x /= 10;
+          //newline
         }
   
         return original == reversed;
